@@ -1,0 +1,190 @@
+.article
+  width: 70.3%
+  margin: 0 auto
+  @include media('lg')
+    width: 100%
+  &__metric
+    margin: 26px 0 27px 0
+    @include media('lg')
+      padding: 27px 0.5rem
+    &__avatar
+      display: flex
+      margin: 0
+      img
+        width: 96px !important
+        height: 100px !important
+    &__name
+      font-family: Open Sans
+      font-size: 20px
+      font-weight: 600
+      line-height: 29.64px
+      text-align: left
+      margin: 25px 6px 28px 6px
+      color: var(--fontDarkColor)
+      letter-spacing: 0px
+      font-stretch: condensed
+    &__profession
+      font-family: Open sans
+      font-size: 14px
+      font-weight: 600
+      line-height: 20.75px
+      text-align: left
+      margin: -31px 0px 0px 6px
+      color: var(--fontDarkColor)
+      font-stretch: condensed
+    &__date
+      font-family: 'Oswald'
+      font-size: 14px
+      font-weight: 200
+      line-height: 20.75px
+      text-align: left
+      margin: 9px 0 0 3px
+      color: var(--fontDarkColor)
+  &__quote 
+    p
+      font-family: "Open Sans"
+      font-size: 18px
+      font-weight: 500
+      line-height: 28px
+      text-align: left
+      font-stretch: normal
+      margin: 32px auto 1.3rem auto
+      color: var(--fontDarkColor)
+      letter-spacing: 0.17px
+      @include media('lg')
+        width: unset
+  &__socials
+    width: 351px
+    margin: 0 auto
+    &__header
+      font-family: Open sans
+      font-size: 16px
+      font-weight: 600
+      line-height: 24px
+      text-align: left
+      font-stretch: normal
+      color: var(--fontDarkColor)
+      font-stretch: condensed
+    &__link
+      position: relative
+      top: 6px
+  &__interressant 
+    padding: 18px 0 43px 0
+    span
+      font-family: "Open Sans"
+      font-size: 18px
+      font-style: italic
+      font-weight: 600
+      font-stretch: condensed
+      line-height: 24.51px
+      letter-spacing: 1.3px
+      text-align: left
+      color: var(--fontDarkColor)
+    a
+      font-family: "Open Sans"
+      font-size: 18px
+      font-style: italic
+      font-weight: 600
+      font-stretch: condensed
+      line-height: 24.51px
+      letter-spacing: 1.2px
+      text-align: left
+      color: var(--accentColor)
+  &__overview
+    margin: 42px 2rem 0 0
+    &__header
+      font-family: Open sans
+      font-size: 32px
+      font-weight: 800
+      line-height: 40px
+      text-align: left
+      color: var(--fontDarkColor)
+      margin-bottom: 4px
+      font-stretch: condensed
+    &__container
+      margin: 14px 1px
+    &__item
+      font-family: Open Sans
+      font-size: 20px
+      font-weight: 400
+      font-stretch: condensed
+      line-height: 1rem
+      text-align: left
+      padding-bottom: 10px
+      color: var(--fontDarkColor)
+      margin: 0
+  &__positive 
+    &__header
+      margin: 19px 0 24px 1px
+      font-family: Open sans
+      font-size: 32px
+      font-weight: 800
+      line-height: 53px
+      text-align: left
+      color: var(--fontDarkColor)
+      font-stretch: condensed
+    &__elem
+      font-family: Open Sans
+      font-size: 18px
+      font-weight: 400
+      line-height: 28px
+      text-align: left
+      font-stretch: normal
+      color: var(--fontDarkColor)
+      width: 82%
+      @include media('lg')
+        width: unset
+  &__text
+    p
+      font-family: "Open Sans"
+      font-size: 18px
+      font-weight: 400
+      line-height: 28px
+      text-align: left
+      font-stretch: normal
+      padding: 0 25px 9px 0
+      color: var(--fontDarkColor)
+      letter-spacing: 0
+    a
+      font-family: "Open Sans"
+      font-size: 16.8px
+      font-style: italic
+      font-weight: 600
+      font-stretch: condensed
+      line-height: 40px
+      letter-spacing: 1.73px
+      text-align: left
+      color: var(--accentColor)
+  &__w-banner
+    padding-top: 35px
+    width: calc(100% + 148px)
+    @include media('lg')
+      width: 97%
+    > div:nth-child(1)
+      display: inline-block
+      @include media('lg')
+        display: flex
+        flex-direction: column
+    .add-600-300
+      float: right
+      margin: 0rem 0 2.3rem 0
+      border-left: 34px white solid
+      width: 334px !important
+      background-color: #efefef
+      margin: 0 auto
+      flex-direction: column
+      @include media('lg')
+        display: flex
+        justify-content: center
+        float: unset
+        width: 300px !important
+        border-left: 0
+        margin-bottom: 1rem
+      p
+        height: 16px
+        font-size: 8px !important
+        padding: 0 !important
+        text-align: center !important
+        line-height: 16px !important
+      div
+        height: 600px
