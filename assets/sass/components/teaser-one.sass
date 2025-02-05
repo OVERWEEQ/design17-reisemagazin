@@ -1,0 +1,92 @@
+.teaser-one
+  margin: 1rem 0 clamp(11px, -4.1258px + 3.1447vw, 16px)
+  width: 1024px
+  position: relative
+  left: -16px
+  @include media('lg')
+    width: 100svw
+  @include media('sm')
+    left: -10px
+  &__figure
+    margin: 0
+    position: relative
+  &__content
+    height: 202px
+    position: absolute
+    bottom: 0
+    left: 0
+    width: clamp(580px, 353.8235px + 29.4118vw, 655px)
+    height: 100%
+    padding: 0 0 clamp(20px, -1.1098px + 2.7451vw, 27px) clamp(38px, 110.2824px + -7.0588vw, 56px)
+    display: flex
+    align-items: start
+    justify-content: end
+    flex-direction: column
+    z-index: 1
+    @include media('md')
+      padding: 0 0 clamp(15px, -10.2362px + 3.937vw, 20px) clamp(33px, -83.0866px + 18.1102vw, 56px)
+      width: clamp(400px, -144.5283px + 113.2075vw, 580px)
+    @include media('sm')
+      padding: 0 0 clamp(15px, 31.1006px + -2.5157vw, 19px) clamp(25px, 0.7987px + 5.0314vw, 33px)
+      //width: clamp(300px, 100px + 62.5vw, 400px)
+    @include media('xs')
+      padding: 0 0 clamp(1px, -27px + 8.75vw, 15px) clamp(20px, 10px + 3.125vw, 25px)
+  &__container
+    background-color: var(--headerBgColor)
+    height: 30px
+    display: flex
+    align-items: center
+    margin-right: 14px
+    margin-bottom: clamp(0px, -24.1255px + 3.1373vw, 8px)
+    @include media('md')
+      height: clamp(24px, -6.2835px + 4.7244vw, 30px)
+      margin-bottom: clamp(0px, 48.378px + -6.2992vw, 8px) 
+    @include media('xs')
+      margin-bottom: clamp(5px, -1px + 1.875vw, 8px)
+  &__sub-title
+    font-family: var(--font-family)
+    font-size: 24px
+    font-weight: 700
+    line-height: 30px
+    margin: 0px 6px
+    color: white
+    display: block
+    @include media('md')
+      font-size: clamp(18px, -12.2835px + 4.7244vw, 24px)
+  &__title
+    font-family: var(--font-family)
+    font-size: clamp(52px, 15.8118px + 4.7059vw, 64px)
+    font-weight: 800
+    color: var(--fontLightColor)
+    text-align: start
+    letter-spacing: -1.9px
+    margin: 0 14px 13px 0
+    display: block
+    line-height: 1
+    letter-spacing: -0.03em
+    @include media('md')
+      font-size: clamp(40px, -20.5669px + 9.4488vw, 52px)
+    @include media('sm')
+      font-size: clamp(36px, 23.8994px + 2.5157vw, 40px)
+    @include media('xs')
+      font-size: clamp(26px, 6px + 6.25vw, 36px)
+  &__img
+    display: block
+    position: relative
+    height: clamp(285px, -1.4902px + 37.2549vw, 380px)
+    object-fit: cover
+    @include media('md')
+      height: clamp(285px, 496.6535px + -27.5591vw, 320px)
+    @include media('sm')
+      height: clamp(240px, -2.0126px + 50.3145vw, 320px)
+    @include media('xs')
+      height: clamp(160px, 0px + 50vw, 240px)
+  &::after
+    content: " "
+    width: 100%
+    height: 54%
+    display: block
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.01) 0%, rgba(112, 112, 112, 0.7) 100%)
+    position: absolute
+    bottom: 0
+    left: 0
